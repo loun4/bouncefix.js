@@ -1,6 +1,6 @@
 /*
  * fix.js
- * 
+ *
  * (C) 2014 Jarid Margolin
  * MIT LICENCE
  *
@@ -34,7 +34,7 @@ var Fix = function (className) {
 
   // Add className to instance
   this.className = className;
-  
+
   // On touchstart check for block. On end, cleanup
   this.startListener = new DOMEvent(document, 'touchstart', this.touchStart, this);
   this.endListener = new DOMEvent(document, 'touchend', this.touchEnd, this);
@@ -63,7 +63,7 @@ Fix.prototype.touchStart = function (evt) {
 // by preventing default behavior.
 //
 Fix.prototype.touchMove = function (evt) {
-  evt.preventDefault(); 
+  evt.preventDefault();
 };
 
 //

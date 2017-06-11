@@ -1,13 +1,13 @@
 /*
  * bouncefix.js
- * 
+ *
  * (C) 2014 Jarid Margolin
  * MIT LICENCE
  *
  */
 
 
-var Fix = require('fix');
+var Fix = require('./fix');
 
 
 // ----------------------------------------------------------------------------
